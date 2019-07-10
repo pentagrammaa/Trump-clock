@@ -1,0 +1,97 @@
+h1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2em;
+    justify-content: center;
+}
+
+#big_container {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-areas: 
+        "time_box date_box"
+        "Trump_box date_box"
+        "Trump_box footnote_box";
+}
+
+/*  UPPER LEFT BOX */
+
+#time_of_day {
+    width: auto;
+    margin: 0px 70px 50px 90px;
+    font-size: 45px;
+    padding: 0px 0px 0px 55px;
+}
+
+#time_box {
+    grid-area: time_box;
+    background-color: navajowhite;
+}
+
+/* UPPER RIGHT BOX */
+
+#date_box {
+    grid-area: date_box;
+    font-size: 35px;
+    background-color: aliceblue;
+}
+    
+#date_box h4 {
+    font-size: 25px;
+}
+
+#day_of_the_week {
+    border: 0px groove black;
+    width: 150px;
+    margin: 0px 0px 20px 100px;    
+}
+
+#month_right_now {
+    border: 0px groove black;
+    width: 150px;
+    margin: 0px 0px 20px 100px;    
+}
+
+#year_now {
+    border: 0px groove black;
+    width: 150px;
+    margin: 0px 0px 20px 100px;
+}
+
+
+/* LOWER LEFT BOX */
+
+#Trump_box {
+    grid-area: Trump_box;
+    background-color: pink;
+    font-size: 25px;
+}
+
+#Trump_days {
+    border: 0px groove black;
+    width: 150px;
+    margin: 0px 0px 10px 100px;    
+}
+
+#Trump_hours {
+    border: 0px groove black;
+    width: 150px;
+    margin: 0px 0px 10px 100px;
+}
+
+#Trump_minutes {
+    border: 0px groove black;
+    width: 150px;
+    margin: 0px 0px 10px 100px;    
+}
+
+#Trump_seconds {
+    border: 0px groove black;
+    width: 150px;
+    margin: 0px 0px 10px 100px;    
+}
+
+/* LOWER RIGHT BOX */
+
+#footnote_box {
+    grid-area: footnote_box;
+}
